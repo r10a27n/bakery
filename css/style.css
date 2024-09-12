@@ -122,7 +122,52 @@ a {
     text-decoration: none;
 }
 
+.contact-sns {
+    display: flex;
+    justify-content: center;
+    }
 
+.contact-sns a {
+    background: #fff;
+    width: 3.75rem;
+    height: 3.75rem;
+    display: inline-block;
+    margin: 0 .5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: .75rem 0 0 .125rem;
+    color: #555;
+}
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.fab {
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+    box-sizing: border-box;
+}
 
 
 /*モバイル版*/
